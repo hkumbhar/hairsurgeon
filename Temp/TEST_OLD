@@ -1,0 +1,77 @@
+
+<section id="carousel">             
+  <div class="container">
+    <h1 class="text-center text-centerh1">Our Clients Says About Us ....</h1>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+          <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+            <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+            <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+              <blockquote>
+                <p class="contact-text text-format">“I believe creativity is a talent which you either have or you do not. I've always worked with big design firms, but for Difference Coffee Co I chose a different route. Having competed with over 50 other designers, Welkin Designs have delivered a top class product and logo design and I'm happy to recommend them to anyone who wants the best!"-   Amir Gehl
+- Director
+- Difference Coffee Company
+</p>
+              </blockquote> 
+            </div>
+            <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+              <blockquote>
+                <p class="contact-text text-format">Extremely professional, hardworking and creative. The beauty of working with Welkins and specially with their designing team is that they capture the thoughts behind the idea of designs required and deliver more than expected!!!
+                Shashank Mishra
+Director
+Vragfils
+</p>
+              </blockquote>
+            </div>
+            <div class="active item">
+                        <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+              <blockquote>
+                <p class="contact-text text-format"> Thank you so much for the work you have done for my business. People have come to notice me because of attractive brand design created by Team Welkin and  my business has improved. You have done everything you said you would ...and more! Thank you!!
+
+                Pranjal Chetia
+CEO
+Mast Biryani
+</p>
+              </blockquote>
+            </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                <blockquote>
+                <p class="contact-text text-format">We at perfect dental solutions have had one of the best experiences when it comes to designing of the logo and the clinic itself. It was all because of his skilled team that made everything fall in the right place all by itself. We are extremely happy and satisfied clients of Welkin Designs and thoroughly appreciate the hard work that they put in and their thorough professionalism. We wish them all the best for their projects and future endeavors.
+Dr. Vijayendra Jain  
+Founder/Director
+Perfect Dental Solutions
+</p>
+              </blockquote>
+            </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                <blockquote>
+                <p class="contact-text text-format">"Working with Sakina from Welkin Designs gives me a lot of confidence because she is truly dedicated to her work. She has helped Dea Cup a lot with the initial work and finding the right people for jobs that were outside her dimensions. We are very happy with her client oriented attitude. Our association with Welkin Designs and Sakina will continue to flourish thanks to her fantastic work ethics." Amol Mane</p>
+              </blockquote>
+            </div>
+                    <div class="item">
+                        <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+                <blockquote>
+                <p class="contact-text text-format">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>              
+    </div>
+  </div>
+</section>

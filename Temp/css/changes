@@ -1,0 +1,56 @@
+1
+//bootstrap.min.css first change
+.navbar-brand>img{
+	display:block
+}
+2.
+//
+navbar-inverse{background-color:#000;border-color:#000}
+
+3.
+//
+navbar-brand{float:left;height:50px;padding:15px 15px;font-size:18px;line-height:20px}
+4.//
+.navbar{position:relative;min-height:50px;margin-bottom:20px;border:1px solid transparent}
+5.
+//
+.navbar-nav > li > a{
+    padding-bottom: 15px;
+    padding-top: 15px;
+	
+}
+6.
+//
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+.hometext {
+  color: #e5b022;
+  
+  text-decoration: none;
+  position: relative;
+  
+}
+
+.hometext:after {
+ content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #3366FF;
+  transition: 0.4s;
+}
+a:hover:after {
+  width: 100%;
+}
+
+7./* left and right margin or padding */
+.btn-group-vertical>.btn-group:after,.btn-toolbar:after,.clearfix:after,.container-fluid:after,.container:after,.dl-horizontal dd:after,.form-horizontal .form-group:after,.modal-footer:after,.modal-header:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.pager:after,.panel-body:after,.row:after{clear:both;}
+
+8./*backgourd iamge for the coursel*/
+.coursul-control.left{
+  background-image:-webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);background-image:-o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));background-image:linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+}

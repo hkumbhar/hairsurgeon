@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Detailed Portfolio</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel='shortcut icon' type='image/x-icon' href='./images/favicon.ico' />
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/hsilder.css">
+	<link rel="stylesheet" type="text/css" href="css/default-style.css">
+	<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.HSlider.min.js"></script>
+	<style type="text/css">
+.close-icon
+{
+  display:block;
+  box-sizing:border-box;
+  width:20px;
+  height:20px;
+  border-width:3px;
+  border-style: solid;
+  border-color:red;
+  border-radius:100%;
+  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%,  white 56%,transparent 56%, transparent 100%);
+  background-color:red;
+  box-shadow:0px 0px 5px 2px rgba(0,0,0,0.5);
+  transition: all 0.3s ease;
+  
+}
+.thumbnail {
+    position: relative;
+   width:100%;
+    height:100%;
+}
+
+.thumbnail img {
+    width:100%;
+    height:100%;
+}
+
+#close {
+    display: block;
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 2px;
+    right: 2px;
+    background: url(./images/index.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="slider">
+			
+    <img src="./images/wdportfolio/02.jpg" class="thumbnail" />
+    <a href="#" id="close" onClick="window.open('portfolio.html','_self');"></a>
+
+			<section>
+				<!-- <article>
+					<h1>街拍的情侣老外</h1>
+					<h2>798艺术区</h2>
+					<h3>2013.10.1</h3>
+				</article> -->
+				<!-- <a href="#" class="close-icon" onClick="window.open('portfolio.html','_self');"></a> -->
+					<!-- <h1>传媒大学站</h1>
+					<h2>798艺术区</h2>
+					<h3>2013.10.1</h3> -->
+				<!-- </article> -->
+				<a href="#" class="close-icon" onClick="window.open('portfolio.html','_self');"></a>
+				<img src="./images/wdportfolio/04.jpg" >
+			</section>
+			<section>
+				<!-- <article>
+					<h1>Digital Crystal</h1>
+					<h2>751艺术区</h2>
+					<h3>2013.10.1</h3>
+				</article> -->
+				<div class="thumbnail">
+    <img src="./images/wdportfolio/02.jpg" />
+    <a href="#" id="close"></a>
+</div>
+			</section>
+			
+			
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(".slider").HSlider();
+	</script>
+</body>
+</html>
